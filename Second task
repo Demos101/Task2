@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Second task</title>
+        <meta name="author" content="Dmitry">
+        <meta name="description" content="Второе задание">
+        <style>
+            a:link    {color:orange; text-decoration:none}
+            a:visited {color:green; text-decoration:none}
+            a:hover   {color:blue; text-decoration:underline}
+            a:active  {color:violet; text-decoration:underline}
+        </style>
+    </head>
+    <body>
+        <h1>Второе задание</h1>
+        <div>
+        <a href="#paragraph1">Элементы группировки</a> | <a href="#paragraph2">Заголовки</a> | 
+        <a href="#paragraph3">Форматирование текста</a> | <a href="#paragraph4">Работа с изображениями</a> |
+        <a href="#paragraph5">Списки</a> | <a href="#paragraph6">Элемент details</a> |
+        <a href="#paragraph7">Список определений</a> |<a href="#paragraph8">Таблицы</a> |
+        <a href="#paragraph9">Ссылки</a> |<a href="#paragraph10">Элементы figure и figcaption</a> |
+        <a href="#paragraph11">Фреймы</a>
+        </div>
+        <div>
+        <h2 id="paragraph1">Элементы группировки</h2>
+        Перенос текста <br> на новую строку
+        <pre>          Предварительно 
+                      отформатированный 
+                         текст так, как он определен
+        </pre>
+        Элемент <span style="color:green;">span</span> обтекает некоторый текст по всей его длине и служит преимущественно для стилизации 
+        заключенного в него текстового содержимого.
+        </div>
+        <div>
+        <h2 id="paragraph2">Заголовки</h2>
+        <h3>Заголовок третьего уровня</h3>
+        <h4>Заголовок четвертого уровня</h4>
+        <h5>Заголовок пятого уровня</h5>
+        <h6>Заголовок шестого уровня</h6>
+        </div>
+        <div>
+        <h2 id="paragraph3">Форматирование текста</h2>
+        <p><b>жирный </b><del>зачеркнутый </del><i>курсивный </i><em>важный курсивный </em><s>недействительный </s>
+           <small>маленький </small><strong>важный жирный </strong><u>подчеркнутый </u><ins>добавленный </ins>
+           <mark>цветной важный </mark></p>
+        <p>(1<sup>5</sup>+2<sup>5</sup>)+(1<sup>7</sup>+2<sup>7</sup>)=2(1+2)<sup>4</sup></p>
+        </div>
+        <div>
+        <h2 id="paragraph4">Работа с изображениями</h2>
+        <img src="picture.png" width=300 alt="Картина" />
+        </div>
+        <div>
+        <h2 id="paragraph5">Списки</h2>
+        <ol style="list-style-type:upper-roman;" start="4">
+            <li>Четвертый</li>
+            <li>Пятый</li>
+            <li>Шестой</li>
+        </ol>
+        <ul style="list-style-image:url(check2.png);">
+            <li>Первый</li>
+            <li>Второй</li>
+            <li>Третий</li>
+        </ul>
+        </div>
+        <div>
+        <h2 id="paragraph6">Элемент details</h2>
+        <details>
+            <summary>Заголовок блока</summary>
+            Содержимое блока
+        </details>
+        </div>
+        <div>
+        <h2 id="paragraph7">Список определений</h2>
+        <dl>
+            <dt>Определение</dt>
+            <dd>Объяснение (формулировка), раскрывающее, разъясняющее содержание, смысл чего-н</dd>
+            <dt>Семантика</dt>
+            <dd>Значение, смысл (отдельного слова, оборота речи)</dd>
+            <dt>Значение</dt>
+            <dd>Смысл, то, что данный предмет (слово, знак, жест) обозначает</dd>
+        </dl>
+        </div>
+        <div>
+        <h2 id="paragraph8">Таблицы</h2>
+        <table border="1">
+            <caption><b>Таблица</b></caption>
+            <thead>
+                <tr>
+                    <th>Пол</th><th>Имя</th><th>Количество</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Мужчины</td><td>Иосиф</td><td align="right">1</td>
+                </tr>
+                <tr>
+                    <td>Владимир</td><td align="right">1</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Женщины</td><td>Елизавета</td><td align="right">2</td>
+                </tr>
+                <tr>
+                    <td>Екатерина</td><td align="right">3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2" align="right">Итого</th><th>7</th>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+        <div>
+        <h2 id="paragraph9">Ссылки</h2>
+        <a href="https://pro-technologii.ru/" target="_blank">Ссылка</a>
+        <br>
+        <a href="https://pro-technologii.ru/" target="_blank">
+            <img src="check2.png" alt="Picture">
+        </a>
+        </div>
+        <div>
+        <h2 id="paragraph10">Элементы figure и figcaption</h2>
+        <figure>
+            <figcaption>Сотворение Адама</figcaption>
+            <img src="picture.png" width="300" alt="Картина">
+        </figure>
+        </div>
+        <div>
+        <h2 id="paragraph11">Фреймы</h2>
+        <iframe src="https://pro-technologii.ru/" width="300" height="150">
+        </iframe>
+        </div>
+    </body>
+</html>
